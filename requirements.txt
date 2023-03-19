@@ -2,3 +2,6 @@ Flask==2.2.2
 scikit-learn==1.2.0
 joblib==1.2.0
 pandas==1.5.1
+pytest==6.2.2
+pylint==2.6.2
+pytest-cov==2.11.1

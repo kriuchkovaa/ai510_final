@@ -14,6 +14,9 @@ RUN pip install -r requirements.txt
 # Running the training
 RUN python3 train.py
 
+# Making the required port available
+EXPOSE 5000
+
 # Creating an entrypoint and pointing to a flask app file app.py
 ENTRYPOINT [ "python" ]
 CMD [ "app.py" ]
